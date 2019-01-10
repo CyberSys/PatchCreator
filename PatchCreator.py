@@ -73,7 +73,7 @@ def init():
     parser.add_argument('--temp', dest='temp',
                         help='temporary directory to use')
     parser.add_argument('--noclean', dest='noclean', action='store_true',
-                        help='do not clean the tempory directory after')
+                        help='do not clean the temporary directory after')
     parser.add_argument('-a', '--apply', dest='apply', action='store_true',
                         help='apply the patch to the old directory after creation. for CI pipelines')
 
